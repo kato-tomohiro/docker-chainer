@@ -28,6 +28,8 @@ RUN pip install chainer==1.6.0
 ENV HOME /root
 
 EXPOSE 8888
+EXPOSE 80
+EXPOSE 8080
 VOLUME /work
 
 WORKDIR /work
